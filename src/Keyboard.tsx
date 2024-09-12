@@ -14,7 +14,7 @@ type keyboardProps = {
     addGuessedLetter: (letter: string) => void
 }
 
-export function Keyboard({ activeLetters, inactiveLetters, addGuessedLetter,
+export function Keyboard({  addGuessedLetter,
  }: keyboardProps)
 
 
